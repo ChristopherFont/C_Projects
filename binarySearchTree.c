@@ -10,8 +10,6 @@
 #define MAXLEN 30
 #define OUTFILE "out.txt"
 
-#include "leak_detector_c.h"
-
 typedef struct itemNode {
     char name[MAXLEN];
     int count;
